@@ -1,0 +1,17 @@
+.navbar{
+    background-color: #f7f8f9;
+}
+.navbarProfile{
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.spanav{
+    font-size: 19px;
+   /* font-family: 'Sonsie One'; */
+   /* font-weight: bolder; */
+    
+}
+
+
