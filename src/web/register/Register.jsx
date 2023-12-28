@@ -5,7 +5,9 @@ import { registerSchema } from '../validation/validation.js';
 import { toast } from 'react-toastify';
 import axios from 'axios';
 import './register.css'
+import { useNavigate } from 'react-router-dom';
 function Register() {
+  const navigate = useNavigate();
     const initialValues={
         userName:'',
         email:'',
@@ -31,6 +33,7 @@ function Register() {
                 progress: undefined,
                 theme: "dark",
                 });
+                navigate('/login')
         }
         
     }

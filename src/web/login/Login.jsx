@@ -7,7 +7,6 @@ import axios from 'axios';
 import { Link, useNavigate } from 'react-router-dom';
 import { UserContext } from '../context/User.jsx';
 import './login.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faUser } from '@fortawesome/free-regular-svg-icons';
 function Login() {
   let {userToken,setUserToken}=useContext(UserContext)
