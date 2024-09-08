@@ -38,7 +38,7 @@ This project leverages several key libraries and frameworks to enhance functiona
 To get this project up and running locally:
 
 1. **Clone the repository:**
-   git clone <repository-url>
+   git clone https://github.com/zahaaMuhanna/E-commerce.git
 2. **Install the dependencies:**
      npm install
 3. **Run the development server:**
